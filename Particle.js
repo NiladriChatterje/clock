@@ -6,7 +6,7 @@ window.addEventListener('resize',()=>{
 particlesJS("particles-js", 
 {"particles":{
     "number":{
-        "value":particleNum >700 ?359:150,"density":{"enable":true,"value_area":800}},
+        "value":particleNum >700 ?359:90,"density":{"enable":true,"value_area":800}},
         "color":{"value":"#000000"},
         "shape":{
             "type":"circle",
