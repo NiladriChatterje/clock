@@ -7,6 +7,7 @@
         font-weight: 900;
         transition: all ;
         transition-duration:500ms;
+        -webkit-tap-highlight-color: transparent;
     }
   
     body{
