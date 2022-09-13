@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clock</title>
     <link rel="stylesheet" href="./clock.css">
+    <link rel="stylesheet" href="./Particle.css">
 </head>
 <body>
     <div class="container--clock">
@@ -27,11 +28,16 @@
                 <span class="hand" id="second"></span>
 
                 <div id="signature">Sanjana</div>
+                <div></div>
     </div>
-
+    
     <div class="textTime">
         <span id="hourTime"></span> : <span id="minuteTime"></span> : <span id="secondTime"></span>
     </div>
+    <div id="particles-js"></div> <!-- stats - count particles --> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="./clock.js"></script>
+    <script src="./Particle.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" ></script> <!-- stats.js lib --> 
+    <script src="https://threejs.org/examples/js/libs/stats.min.js" ></script>
 </body>
 </html>

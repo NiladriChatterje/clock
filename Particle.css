@@ -1,0 +1,30 @@
+/* ---- reset ---- */ 
+ canvas{ 
+    display: block;
+    vertical-align: bottom; }
+  /* ---- particles.js container ---- */ 
+  #particles-js{
+     position:fixed; 
+     width: 100%; 
+     height: 100%; 
+     top:0;
+     background-color: #ffffff;
+      background-image: url("");
+       background-repeat: no-repeat;
+        background-size: cover;
+        } /* ---- stats.js ---- */ 
+        .js-count-particles{ font-size: 1.1em; }
+
+        #stats{
+            display: none;
+        }
+         .count-particles{ 
+            user-select: none; 
+            margin-top: 5px; 
+            margin-left: 5px; }
+            #stats{ 
+                border-radius: 3px 3px 0 0; 
+                overflow: hidden; } 
+                .count-particles{ 
+                    border-radius: 0 0 3px 3px;
+                 }
