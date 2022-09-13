@@ -60,7 +60,7 @@ particlesJS("particles-js",
                         "attract":
                         {"enable":false,"rotateX":600,"rotateY":1200}},
 
-                        "touch":{"enable":true,
+                        "touchmove":{"enable":true,
                         "speed":6,
                         "direction":"none",
                         "random":false,
