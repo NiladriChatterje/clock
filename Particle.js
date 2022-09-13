@@ -1,7 +1,12 @@
+var particleNum=window.innerWidth;
+window.addEventListener('resize',()=>{
+    particleNum=window.innerWidth;
+})
+
 particlesJS("particles-js", 
 {"particles":{
     "number":{
-        "value":window.innerWidth >700?359:150,"density":{"enable":true,"value_area":800}},
+        "value":particleNum >700 ?359:150,"density":{"enable":true,"value_area":800}},
         "color":{"value":"#000000"},
         "shape":{
             "type":"circle",
@@ -53,3 +58,4 @@ window.addEventListener('load',()=>{
         document.getElementsByTagName('div').length-1
     ].style.display = 'none';
 });
+
