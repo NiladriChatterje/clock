@@ -8,6 +8,7 @@
         transition: all ;
         transition-duration:500ms;
         -webkit-tap-highlight-color: transparent;
+        user-select: none;
     }
   
     body{
@@ -116,6 +117,7 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: 50px;
+        letter-spacing: 5px;
     }
     
     .container--clock div:last-child{
